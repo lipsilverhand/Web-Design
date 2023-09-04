@@ -1,0 +1,23 @@
+body {
+    font-family: system-ui, 'Bitstream Vera Sans', 'Segoe UI', 'sans-serif';
+    font-size: 100%;
+    line-height: 200%;
+    margin: 0;
+}
+
+header {
+    background-image: url(i1.jpg);
+    background-size: cover;
+    height: 50vh;
+    border: 1px solid silver;
+}
+
+h1 {
+    padding: 1em;
+    margin: 1em;
+    text-align: center;
+}
+
+main {
+    padding: 20px;
+}

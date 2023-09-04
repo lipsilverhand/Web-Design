@@ -1,0 +1,65 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: system-ui, "San Francisco", "Segoe UI", Roboto, sans-seref;
+    font-size: 100%;
+    line-height: 1.35rem;
+    
+} 
+
+.numbers {
+    border: 1px outset gray;
+    border-collapse: collapse;
+    border-spacing: 1em;
+    text-align: right;
+}
+
+.numbers tr>* {
+    background-color: silver;
+    min-width: 4rem;
+    padding: 0.2rem;
+}
+
+.numbers th {
+    background-color: rgb(180,90,100);
+}
+
+.numbers tr:nth-child(5) td:nth-child(1) {
+    background-color: #db9;
+}
+
+.numbers td:hover {background-color: #b9d;}
+
+a:link {color: green;}
+a:visited {color: #333;}
+a:hover {color: #fd0;}
+a:active {color: fff;background-color: #444;}
+
+#form1 fieldset {
+    width: 50%;
+    min-width: 21rem;
+}
+
+#form1 .particulars label {
+    display: inline-block;
+    width: 9rem;
+}
+
+#form1 .particulars input, #form1 .particulars {
+    display: inline-block;
+    width: 10rem;
+}
+
+#form1 input[type|="submit"] {
+    width: auto;
+}
+
+#form1 .choices label {
+    display: block;
+    width: 50%;
+}
+
+
+

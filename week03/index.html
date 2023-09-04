@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Week Three in Web Design</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Web Design Summer 2023</h1>
+        <h2>Week Three: Tables and Forms</h2>
+        <ul>
+            <li><a href="../">My Home Page</a></li>
+            <li><a href="https://canvas.evergreen.edu/courses/5900">Our Canvas Page</a></li>
+            <li><a href="https://www.evergreen.edu">Evergreen</a></li>
+        </ul>
+    </header>
+    <main>
+        <section class="content primary">
+            <h3>Lorem ipsum mus</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            <table class="numbers">
+                <thead>
+                    <tr> <th>abc</th> <th>xyz</th> <th>lmop</th></tr>
+                </thead>
+                <tbody>
+                    <tr class="odd"> <td>518</td>  <td>744</td>  <td>712</td> </tr>
+                    <tr class="even"> <td>101</td>  <td>22</td>  <td>77</td> </tr>
+                    <tr class="odd"> <td>52</td>  <td>748</td>  <td>166</td> </tr>
+                    <tr class="even"> <td>440</td>  <td>594</td>  <td>471</td> </tr>
+                </tbody>
+            </table>
+            <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+        </section>
+        
+        <section class="content secondary">
+            <h3>Nullam ante sed ipsum</h3>
+            <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+            <form id="form1" action="index.html" method="GET">
+                <fieldset class="particulars">
+                    <legend>Particulars</legend>
+                    <label for="name">Your name: </label><input name="name" type="text"> <br>
+                    <label for="psswd">Your password: </label><input name="psswd" type="password"> <br>
+                    <label for="email">Your web address: </label><input name="email" type="url">
+                    <label for="mydate">Pick a date<input></label>
+                    <label for="">Comments: </label><textarea name="cmmts" placeholder="leave a comment!"></textarea>
+                </fieldset>
+                <fieldset class="choices">
+                    <legend>Choices</legend>
+                    <label><input checked type="checkbox" name="choice1" id="choice1">Choice 1</label>
+                    <label><input type="checkbox" name="choice2" id="choice2">Choice 2</label>
+                    <label><input type="checkbox" name="choice3" id="choice3">Choice 3</label>
+                    <hr>
+                    <label><input type="radio" name="radioset" value="A">Choice A</label>
+                    <label><input type="radio" name="radioset" value="B">Choice B</label>
+                    <label><input type="radio" name="radioset" value="C">Choice C</label>
+                </fieldset>
+                <fieldset class="submit">
+                    <legend>Submit</legend>
+                    <input class="sbmt" type="submit" value="Do it!"/>
+                </fieldset>
+            </form>
+            <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2023 Arlen Speights</p>
+    </footer>
+</body>
+</html>

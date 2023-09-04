@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Castoro+Titling&family=Montserrat:wght@200&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Montserrat', system-ui, sans-serif;
+    margin: 0;
+}
+
+h1 {
+    font-family: 'Abril Fatface';
+    margin: 0;
+    line-height: 1em;
+    text-align: center;
+    font-size: 7vw;
+}
+
+h2 {
+    font-size: 7.5vw;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    word-spacing: 0.12em;
+    justify-content: center;
+    color: white;
+    text-shadow: 0 0 3px #000;
+    line-height: 1em;
+}
+
+header {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    background-image: url('resort.png');
+    background-size: cover;
+    background-position: 15% center;
+    background-repeat: repeat-y;
+}
+
+nav>ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    display: block;
+    padding: 0.5em;
+    text-align: center;
+}
+
+nav a:link {background-color: #821;}
+nav a:visited {}
+nav a:hover {background-color: #932;}
+
+main {
+    margin: 1rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+section.primary {
+    width: 65%;
+    margin-right: 1rem;
+}
+
+section.secondary {
+    width: 35%;
+    margin-left: 1rem;
+}
+
+@media (min-width: 760px) {
+    nav li {
+        width: 50vw;
+    }
+}
+
+@media (min-width: 760px) OR (orientation:landscape) {
+    nav>ul {
+        width: 97vw;
+        padding: 0 5rem 0 5rem;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+}

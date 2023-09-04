@@ -1,0 +1,61 @@
+body {
+    font-family: system-ui, sans-serif;
+    font-size: 100%;
+    line-height: 1.35em;
+    background-color: rgb(195, 234, 195);
+}
+
+.out {
+    outline: 1px dotted gray;
+    list-style: none;
+}
+
+ul {
+    padding-left: 0;
+}
+h3,h4 {
+    font-size: medium;
+}
+
+li {
+    display: inline;
+    margin-right: 2em;
+}
+
+dl {
+    margin: 0 1rem;
+    border: 1px solid tan;
+    padding: 1rem 2rem;
+    width: 75vw;
+}
+
+dt {
+    display: inline-block;
+    outline: 1px dashed silver;
+    font-weight: bold;
+    width: 20%;
+}
+
+dd {
+    display: inline-block;
+    outline: 1px dashed gray;
+    margin-left: 0;
+    width: 75%;
+}
+
+p {
+    text-indent: 1em;
+}
+
+p.first {
+    text-indent: 0
+}
+
+pre {
+    font-family: sans-serif;
+    font-style: normal;
+}
+
+section {
+    clear: both;
+}
